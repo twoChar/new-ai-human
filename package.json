@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "eslint",
     "predeploy": "npm run build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out -t"
   },
   "dependencies": {
     "@types/canvas-confetti": "^1.9.0",

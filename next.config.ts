@@ -6,7 +6,7 @@ const repoName = '/new-ai-human';
 const nextConfig: NextConfig = {
   output: 'export',
   basePath: isProd ? repoName : '',
-  assetPrefix: isProd ? repoName : '',
+  // assetPrefix: isProd ? repoName : '',
   images: {
     unoptimized: true,
   },
